@@ -19,17 +19,36 @@
         </div>
 
         <div class="answers" id="answers">
-         <input type="radio" name="answer" id="alt1_" value="" onclick="radioclick(this.value)">    <label id="alt1"></label><br>
-         <input type="radio" name="answer" id="alt2_" value="" onclick="radioclick(this.value)">    <label id="alt2"></label><br>
-         <input type="radio" name="answer" id="alt3_" value="" onclick="radioclick(this.value)">    <label id="alt3"></label><br>
-         <input type="radio" name="answer" id="alt4_" value="" onclick="radioclick(this.value)">    <label id="alt4"></label><br>
+         <input type="radio" name="answer" id="alt1_" value="">    <label id="alt1"></label><br>
+         <input type="radio" name="answer" id="alt2_" value="">    <label id="alt2"></label><br>
+         <input type="radio" name="answer" id="alt3_" value="">    <label id="alt3"></label><br>
+         <input type="radio" name="answer" id="alt4_" value="">    <label id="alt4"></label><br>
+          <br>
          <input type="button" name="" value="svar" id="answerbutton" class="button" onclick="submit()">
         </div>
         <div class="score">
-          <p id="scoretext">test</p>
+          <p id="scoretext"></p>
+          <p id="results"></p>
+        </div>
+        <div class="buttons">
+          <br>
+          <input type="button" name="newRound" value="Ny runde" id="newRound">
+          <input type="button" name="contribute" value="Legg til spørsmål" id="contribute" onclick="contributeFields()">
+
         </div>
         <div class="contribute">
-
+          <br><br>
+          <label> Legg til spørsmålet ditt <br>
+            <textarea value="" id="spm" rows="1" cols="100"></textarea></label><br>
+            <label> Alternativ 1 <br>
+              <textarea value="" id="calt1" rows="1" cols="100"></textarea></label><br>
+            <label> Alternativ 1 <br>
+              <textarea value="" id="calt2" rows="1" cols="100"></textarea></label><br>
+            <label> Alternativ 1 <br>
+              <textarea value="" id="calt3" rows="1" cols="100"></textarea></label><br>
+            <label> Riktig svar <br>
+              <textarea value="" id="calt4" rows="1" cols="100"></textarea></label><br><br>
+            <input type="button" name="csubmit" value="Legg til" id="csubmit" onclick="">
         </div>
 
       </div>
