@@ -1,0 +1,15 @@
+body {
+  background-color: #c0ced6;
+}
+.main {
+  width: 70%;
+  margin: auto;
+  border: 3px;
+  border-color: #496b81;
+  height: auto;
+  border-radius: 20px;
+}
+
+.buttons {
+
+}
